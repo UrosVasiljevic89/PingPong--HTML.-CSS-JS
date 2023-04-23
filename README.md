@@ -1,2 +1,7 @@
 # PingPong--HTML.-CSS-JS
-Ping Pong is a simple web-based built using HTML, CSS, and JavaScript. The game tracks the score and becomes more difficult as the player collects points. It was a fun project to learn about game development using web technologies.
+
+This is a simple implementation of a Ping Pong game using HTML canvas and JavaScript. The game consists of two players on either side of the canvas, a ball that bounces off the walls and the paddles, and a score system that keeps track of each player's points. The code uses event listeners to capture key presses and updates the canvas on every frame using the requestAnimationFrame method. The game also features a modal window that allows users to create tasks.
+
+The HTML file contains the basic structure of the web page and links to the CSS and JavaScript files. It also includes a canvas element where the game is rendered and a div element for displaying a message to mobile users that the game is not supported on their device.
+
+The JavaScript code defines the game objects, such as the ball and the players, and initializes their properties. It also defines the game state, such as the scores and the turn, and the speed at which the ball moves. The draw functions are responsible for rendering the game objects on the canvas. The update function is called on every frame and updates the game state, such as the position of the ball and the paddles. It also checks for collisions between the ball and the paddles or the walls and updates the score if a player scores a point. The keyPressed object captures the state of the keys that control the movement of the paddles. Finally, the requestAnimationFrame method is used to create a smooth animation loop that updates the canvas on every frame.
