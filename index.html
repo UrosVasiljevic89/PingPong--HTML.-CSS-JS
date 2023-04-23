@@ -1,0 +1,52 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ping Pong</title>
+    <link href="style.css" rel="stylesheet" />
+</head>
+
+<body>
+
+    <noscript>Your browser does not support JavaScript!</noscript>
+
+    <div class="canvas-container">
+        <p class="left">0</p>
+        <div class="wrapper">
+            <canvas id="container"></canvas>
+        </div>
+        <p class="right">0</p>
+    </div>
+
+    <div class="small-device">
+        <p>This game is currently not supported in mobile.</p>
+    </div>
+
+    <script src="script.js"></script>
+
+    <!-- modal window -->
+		<div class="modal-wrap js-modal">
+			<div class="modal js-modal-inner">
+				<h2>Create a task today:</h2>
+				<form action="">
+					<div class="field-wrap">
+						<select name="userSelect" id="users">
+							<option value="user1">User 1</option>
+							<option value="user2">User 2</option>
+							<option value="user3">User 3</option>
+							<option value="user4">User 4</option>
+						  </select>
+						<input class="field" id="txtTitle" type="text" placeholder="Title.." required>
+
+					</div>
+					<div class="btn-wrap align-right">
+						<input id="btnCreate" class="btn" type="button" value="Create" onclick="create()">
+					</div>
+				</form>
+			</div>
+		</div>
+</body>
+
+</html>
