@@ -1,4 +1,4 @@
-# PingPong--HTML.-CSS-JS
+# PingPong Game
 
 This is a simple implementation of a Ping Pong game using HTML canvas and JavaScript. The game consists of two players on either side of the canvas, a ball that bounces off the walls and the paddles, and a score system that keeps track of each player's points. The code uses event listeners to capture key presses and updates the canvas on every frame using the requestAnimationFrame method. The game also features a modal window that allows users to create tasks.
 
